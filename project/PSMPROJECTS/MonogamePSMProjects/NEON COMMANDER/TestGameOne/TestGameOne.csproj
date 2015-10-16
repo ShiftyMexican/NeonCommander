@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6EF299D4-EB40-4BFC-A317-829B1926F791}</ProjectGuid>
+    <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TestGameOne</RootNamespace>
+    <AssemblyName>TestGameOne</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Sce.PlayStation.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <ShaderProgram Include="shaders\Simple.fcg" />
+    <ShaderProgram Include="shaders\Simple.vcg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PsmMetadata Include="app.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\AnimatedSprite.cs">
+      <Link>AnimatedSprite.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Bullet.cs">
+      <Link>Bullet.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Button.cs">
+      <Link>Button.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Camera2D.cs">
+      <Link>Camera2D.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Circle.cs">
+      <Link>Circle.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Concept.cs">
+      <Link>Concept.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Game1.cs">
+      <Link>Game1.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\GameStateManager.cs">
+      <Link>GameStateManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\HelpState.cs">
+      <Link>HelpState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\InputManager.cs">
+      <Link>InputManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\LeaderboardState.cs">
+      <Link>LeaderboardState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\MenuState.cs">
+      <Link>MenuState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\MineEnemy.cs">
+      <Link>MineEnemy.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\MissleEnemy.cs">
+      <Link>MissleEnemy.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\MultiShooterEnemy.cs">
+      <Link>MultiShooterEnemy.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Particles.cs">
+      <Link>Particles.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\PauseState.cs">
+      <Link>PauseState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Player.cs">
+      <Link>Player.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\PlayState.cs">
+      <Link>PlayState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Pong.cs">
+      <Link>Pong.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\PostGameState.cs">
+      <Link>PostGameState.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\PowerUp.cs">
+      <Link>PowerUp.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\SeekerEnemy.cs">
+      <Link>SeekerEnemy.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGameOne\SplashState.cs">
+      <Link>SplashState.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+    <Folder Include="Content\Fonts\" />
+    <Folder Include="Content\Images\" />
+    <Folder Include="Content\Sounds\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\..\MonoGameProjects\NEON COMMANDER\TestGamePL\TestGamePL\bin\PSM\Content\Fonts\SpriteFont1.xnb">
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <Link>Content\Fonts\SpriteFont1.xnb</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MonoGame-develop\MonoGame.Framework\MonoGame.Framework.PSMobile.csproj">
+      <Project>{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}</Project>
+      <Name>MonoGame.Framework.PSMobile</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B1B0811A-D07F-4E2B-92BC-D7A7C0516F86}</ProjectGuid>
+    <ProjectTypeGuids>{69878862-DA7D-4DC6-B0A1-50D8FAB4242F};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GameName1</RootNamespace>
+    <AssemblyName>GameName1</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;PSM;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Sce.PlayStation.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <ShaderProgram Include="shaders\Simple.fcg" />
+    <ShaderProgram Include="shaders\Simple.vcg" />
+  </ItemGroup>
+  <ItemGroup>
+    <PsmMetadata Include="app.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Sce\Sce.Psm.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="..\..\MonoGameProjects\GameName1\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\MonoGame-develop\MonoGame.Framework\MonoGame.Framework.PSMobile.csproj">
+      <Project>{EA26E76F-FDFE-4A8C-B5A3-C3B5761E28F9}</Project>
+      <Name>MonoGame.Framework.PSMobile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\MonoGameProjects\GameName1\Content\Calibri_14.xnb">
+      <Link>Content\Calibri_14.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </None>
+    <None Include="..\..\MonoGameProjects\GameName1\Content\Calibri_18.xnb">
+      <Link>Content\Calibri_18.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </None>
+    <None Include="..\..\MonoGameProjects\GameName1\Content\Calibri_22.xnb">
+      <Link>Content\Calibri_22.xnb</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>true</DeployService-UseProjectRelativePath>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="..\..\MonoGameProjects\GameName1\Game1.cs">
+      <Link>Game1.cs</Link>
+      <DeployService-Deploy>true</DeployService-Deploy>
+    </Content>
+  </ItemGroup>
+</Project>
