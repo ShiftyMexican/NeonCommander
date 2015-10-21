@@ -1,0 +1,36 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Program.cs">
+    <Files>
+      <File FileName="c:\Users\richard.murray\Desktop\PSMPROJECTS\MonoGameProjects\NEON COMMANDER\TestGameOne\AnimatedSprite.cs" Line="7" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Bullet.cs" Line="17" Column="1" />
+      <File FileName="c:\Users\richard.murray\Desktop\PSMPROJECTS\MonoGameProjects\NEON COMMANDER\TestGameOne\Button.cs" Line="7" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Camera2D.cs" Line="1" Column="1" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Circle.cs" Line="1" Column="1" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Concept.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Game1.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\GameStateManager.cs" Line="7" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\HelpState.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\InputManager.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\LeaderboardState.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\MenuState.cs" Line="20" Column="21" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\MineEnemy.cs" Line="1" Column="1" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\MissleEnemy.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\MultiShooterEnemy.cs" Line="1" Column="1" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Particles.cs" Line="1" Column="1" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\PauseState.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Player.cs" Line="1" Column="1" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\PlayState.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Pong.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\PostGameState.cs" Line="8" Column="39" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\PowerUp.cs" Line="1" Column="1" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\Program.cs" Line="9" Column="1" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\SeekerEnemy.cs" Line="1" Column="1" />
+      <File FileName="..\MonoGameProjects\NEON COMMANDER\TestGameOne\SplashState.cs" Line="8" Column="39" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

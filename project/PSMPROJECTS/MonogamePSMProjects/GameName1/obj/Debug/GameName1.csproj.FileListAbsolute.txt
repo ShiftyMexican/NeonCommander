@@ -1,0 +1,1 @@
+C:\Users\richard.murray\Desktop\Tutorial\MonogamePSMProjects\GameName1\obj\Debug\shaders\shaders\Simple.cgx
